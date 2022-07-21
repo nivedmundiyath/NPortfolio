@@ -16,3 +16,18 @@
     position: absolute;
 }
 
+
+@media screen and  (max-width: 500px)
+{
+  .nav1 {
+    padding: 0px;
+    font-size: 6px;
+  }
+
+ .nav {
+        font-size: 4px;
+        padding: 1px;
+     }
+    
+}
+
