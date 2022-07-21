@@ -1,0 +1,96 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    color: white;
+
+}
+        
+
+.landingPage{
+    height: 70vw;
+    width: 100%;
+    background-image: url(../../assets/webdesign.png);
+    background-size: cover;
+}
+.profilePic {
+        height: 40%;
+        width: 60%;
+        display: flex;
+        align-items: center;
+        padding-left: 2vw;
+        font-size: 2vw;
+
+        
+
+            /* float: left; */
+
+}
+
+.profilePic img {
+
+width: 35% ;
+border-radius: 23ch;
+
+}
+.hireMe {
+padding-left: 2vw;
+
+
+/* margin-left: 200px; */
+
+}
+.hireMe button {
+
+/* margin-right: 12px; */
+white-space: nowrap;
+width: 20vw;
+background-color: #2807479e;
+border-radius: 2vw;
+border: none;
+
+
+}
+
+/* .profilePic article {
+
+        flex-grow: 2;
+} */
+
+.lplink {
+height: 10vw;
+width: auto;
+/* align-content: center; */
+text-align: center;
+font-size: 2vw;
+margin: auto;
+padding: 21vw;
+
+}
+
+
+@media screen and  (max-width: 500px)
+{
+
+
+.profilePic{
+
+font-size: 10px;
+}
+.hireMe{
+font-size: x-small;
+margin-left: 0px;
+}   
+.lplink     
+{
+font-size: 2vw;
+margin: auto;
+padding: 21vw;
+}
+.hireMe button {
+
+width: 50px;
+font-size: 10px;
+padding: 0%;
+background-color: #48008c;
+}
+}

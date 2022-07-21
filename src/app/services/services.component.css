@@ -1,0 +1,49 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card-group_Sec{
+    display: flex;
+    height: 50vw;
+    align-items: center;
+    background-color: blueviolet;
+
+}
+.card1 
+{
+    text-align: center;
+     margin: auto;
+     width: 30%;
+     font-size: 12px;
+     background-color: rgba(46, 44, 44, 0.111);
+     padding: 2vw;
+     border-radius: 2vw;
+}
+
+.card-title1{
+
+    font-size: 2vw;
+}
+
+
+@media screen and  (max-width: 500px)
+{
+    .card-group_Sec
+    {
+    font-size: xx-small;
+    align-items: center;
+    height: 60vw;
+    }
+    .card1 img
+    {
+       height:35px;
+    }
+    .card-title1 {
+        font-size: 13px;
+        
+    }
+    .card1{
+        font-size: 5px;
+
+    }
+   
+}
